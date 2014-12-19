@@ -12,8 +12,7 @@ public class compare_top_feature {
 	public static void main(String[] args) throws IOException {
 		int attribute_count=0; 
 		String[] diffrernt_attribute = new String [50];
-		// TODO Auto-generated method stub
-		read_file(top);//路徑,前N個屬性
+		read_file(top);
 		String [] different_attribute = new String [top];
 		System.out.println("benign");
 		for(int i = 0; i < arraylist_benign.size(); i++){
